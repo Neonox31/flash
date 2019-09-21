@@ -317,7 +317,7 @@ case "${OSTYPE}" in
       sed -i "" "$@"
     }
     ;;
-  Linux|linux|linux-gnu*)
+  Linux|linux|linux-gnu|linux-musl*)
     size_opt="-c %s"
     bs_size=1M
 
